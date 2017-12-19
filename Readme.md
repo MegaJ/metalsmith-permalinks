@@ -1,5 +1,6 @@
 
 # metalsmith-permalinks
+  This is a small modification. I didn't like that my properties were auto slugized. I wanted backslashes so metalsmith would write files in directory structures I could control more easily.
 
   A Metalsmith plugin that applies a custom permalink pattern to files, and renames them so that they're nested properly for static sites (converting `about.html` into `about/index.html`).
 
